@@ -1,6 +1,6 @@
 import { headers } from "@lazarv/react-server";
 
-export default  function HelloPage() {
+export default async function HelloPage() {
   headers({
     "cache-control": "s-maxage=1",
   });
